@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+    <title>rat-maze</title>
+</head>
+<body>
+    <div style="color: darkgreen;">Dark green : starting</div> 
+    <div style="color:	rgb(249, 128, 6);"> visited node color</div>
+    <div style="color: green;">GREEN: solution</div>
+    <div style="color: black;">BLACK:block</div>
+  <div style="color:red">RED: Ending</div>
+  
+<br>
+ 
+  
+   
+   <canvas id='myCanvas' width='300' height='300'></canvas><br\>
+   <button class="solve1" onclick="solveMaze()">solve</button>
+   <button class="reset"onclick="reset()">Reset matrix</button>
+   <p id="outcome"></p>
+   <script src="javascript.js"></script>
+</body>
+</html>
